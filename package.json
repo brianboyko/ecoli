@@ -1,0 +1,69 @@
+{
+  "name": "ecoli",
+  "version": "1.0.0",
+  "description": "Electoral College Widtet",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090",
+    "lint": "eslint src",
+    "test": "mocha --recursive --compilers js:babel-register",
+    "test:watch": "mocha -w --recursive --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianboyko/stv.git"
+  },
+  "author": "Brian Boyko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianboyko/stv/issues"
+  },
+  "homepage": "https://github.com/brianboyko/stv#readme",
+  "dependencies": {
+    "aphrodite": "^1.1.0",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.11.6",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "eslint": "^3.3.1",
+    "eslint-plugin-react": "^6.1.2",
+    "express": "^4.14.0",
+    "http-server": "^0.9.0",
+    "lodash": "^4.16.1",
+    "material-ui": "^0.16.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-hot-loader": "^1.3.0",
+    "react-redux": "^4.4.5",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-multi": "^0.1.91",
+    "redux-thunk": "^2.1.0",
+    "reduxify": "^1.0.2",
+    "util": "^0.10.3",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "jsx-loader": "^0.13.2",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.6",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
