@@ -90,6 +90,7 @@ class Calc extends Component {
             <div className={css(styles.flexItem)}>
               <h3>the vote of a citizen from</h3>
               <SelectField
+                maxHeight={150}
                 value={this.state.A}
                 onChange={this.handleChangeA}
                 >
@@ -105,6 +106,7 @@ class Calc extends Component {
             <div className={css(styles.flexItem)}>
             <h3>of a citizen from</h3>
             <SelectField
+              maxHeight={150}
               value={this.state.B}
               onChange={this.handleChangeB}
               >
