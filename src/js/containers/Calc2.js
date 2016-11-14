@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
   },
   paper: {
     padding: '5px',
-    width: "100%",
+    width: "790px",
     margin: 'auto',
   }
 });
