@@ -5,11 +5,12 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import Calc from './Calc';
+import Calc2 from './Calc2';
 
 const App = (props) => (
   <div>
     <MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
-      <Calc />
+      <Calc2 />
     </MuiThemeProvider>
   </div>
 );

@@ -7,6 +7,7 @@
     "pack": "node ./node_modules/.bin/webpack",
     "build": "npm run pack && ./node_modules/.bin/babel backend -d backdist",
     "start": "npm run build && node backdist/server.js",
+    "dev": "webpack-dev-server --progress --colors --port 8090",
     "devstart": "npm run build && nodemon server.js"
   },
   "repository": {
